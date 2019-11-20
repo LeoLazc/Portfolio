@@ -1,0 +1,187 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  background-color: #2C3E50;
+  color: white;
+  padding: 25px;
+}
+
+.navbar button{
+  background-color: #18BC9C;
+  color: white;
+}
+
+
+
+.imagen-perfil{
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 50px;
+  background-size: contain;
+  padding: 20px;
+}
+
+.imagen-perfil img{
+  display: block;
+  margin: 0 auto;
+}
+
+.cabecera{
+  background-color: #18BC9C;
+  height: 80vh;
+}
+
+.cabecera h1{
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cabecera p{
+  color: white;
+  text-align: center;
+}
+
+.portfolio{
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.col-12 img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about{
+  background-color: #18BC9C;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  padding: 100px 0 0 0;
+}
+
+.about h1{
+  font-weight: bold;
+}
+
+.about button{
+  width: 80%;
+  height: 9vh;
+  background-color: #18BC9C;
+  border: solid 2px white;
+  color: white;
+}
+
+.formulario{
+  padding: 40px 0 40px 0;
+}
+
+.formulario h1{
+  text-align: center;
+}
+
+.formulario button{
+  width: 70px;
+  padding: 7px;
+  background-color: #18BC9C;
+  border: solid 1px white;
+  border-radius: 4px;
+  color: white;
+}
+
+.contacto{
+  background-color: #2C3E50;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  padding: 30px 0;
+  font-size: 15px;
+}
+
+.contacto h3{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+@media (min-width: 700px) {
+
+.cabecera{
+  font-size: 25px;
+}
+
+.image-perfil{
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.portfolio{
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.portfolio .col-md-6{
+  float: left;
+}
+
+.about{
+  height: 57vh;
+}
+
+.about p{
+  text-align: left;
+  padding: 0 30px;
+}
+
+.about .col-md-12{
+  padding: 20px 0;
+}
+
+.about button{
+  width: 30%;
+  height: 6vh;
+}
+
+.contacto{
+  overflow: hidden;
+  height: 30vh;
+}
+
+.contacto .col-md-4{
+  float: left;
+}
+}
+
+@media (min-width: 1000px){
+
+.about{
+  overflow: hidden;
+  position: relative;
+  height: 40vh;
+}
+
+.about .col-lg-6{
+  float: left;
+  padding: 0 80px;
+  margin-bottom: 60px;
+}
+
+.about button{
+  float: right;
+}
+
+.about-boton{
+  width: 58%;
+}
+
+.formulario .col-lg-12{
+  width: 40%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+}
